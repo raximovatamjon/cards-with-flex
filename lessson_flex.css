@@ -1,0 +1,97 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+main{
+    /* border: solid; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+header{
+    /* border: solid; */
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.log_in{
+    width: 60px;
+    height: 35px;
+    border-radius: 25px;
+    border: none;
+}
+.sign_in{
+    width: 60px;
+    height: 35px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgba(239, 17, 17, 0.833);
+    color: white;
+}
+.left{
+    display: flex;
+    /* margin-left: 1300px; */
+    gap: 15px;
+}
+.right{
+    display: flex;
+    margin-left: 1200px;
+    gap: 10px;
+}
+.centre{
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 85%;
+    gap: 15px;
+}
+.card1{
+    border: solid;
+    width: 50%;
+    height: 30%;
+   padding: 30px;
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+
+}
+.card2{
+    border: solid;
+    width: 50%;
+    height: 30%;
+    padding: 30px;
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+}
+.card3{
+    border: solid;
+    width: 50%;
+    height: 30%;
+    padding: 30px;  
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+}
+.view{
+    border: none;
+    width: 85px;
+    height: 40px;
+    background-color: rgb(203, 201, 201);
+}
+h2{
+    color: rgb(51, 156, 248);
+}
+h3{
+    color:  rgba(239, 17, 17, 0.833);
+}
+
+#select{
+    height: 33px;
+}
